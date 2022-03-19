@@ -3,7 +3,7 @@ package com.example.cathay_interview.Entity.CoinDesk;
 import lombok.Data;
 
 @Data
-public class Currency {
+public class Code {
     String code;
     String symbol;
     String rate;

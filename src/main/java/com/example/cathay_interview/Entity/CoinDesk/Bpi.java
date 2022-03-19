@@ -6,11 +6,11 @@ import lombok.Data;
 @Data
 public class Bpi {
     @JsonProperty("USD")
-    Currency USD;
+    Code USD;
 
     @JsonProperty("GBP")
-    Currency GBP;
+    Code GBP;
 
     @JsonProperty("EUR")
-    Currency EUR;
+    Code EUR;
 }
